@@ -1,0 +1,17 @@
+.index-item {
+    color: white;
+    font-weight: 400;
+    background-color:mediumpurple;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.index-item + .index-item {
+    margin-left: 10px;
+}
+
+.index-flex {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
