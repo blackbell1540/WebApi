@@ -1,0 +1,18 @@
+main {
+  padding-top: 5px;
+}
+
+.consoleApi {
+  display: flex;
+  flex: row nowrap;
+  background-color: #efefef;
+  box-shadow: 5px 3px rgba(0, 0, 0, 0.3);
+  width: 70%;
+  margin-left: 0.5em;
+  padding: 1em;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: calc(0.6em + 0.5vw);
+}

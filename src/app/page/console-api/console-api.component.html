@@ -1,0 +1,98 @@
+<main>
+  <div class="consoleApi">
+    <span>일반 메시지를 출력.</span>
+    <button mat-raised-button color="primary" class="button" (click)="log()">log()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>정보 메시지를 출력.</span>
+    <button mat-raised-button color="primary" class="button" (click)="info()">info()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>오류 메시지를 출력.</span>
+    <button mat-raised-button color="primary" class="button" (click)="error()">error()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>경고 메시지를 출력.</span>
+    <button mat-raised-button color="primary" class="button" (click)="warn()">warn()</button>
+  </div>
+
+
+  <div class="consoleApi">
+    <span>debug 중요도로 메시지를 출력.</span>
+    <button mat-raised-button color="primary" class="button" (click)="debug()">debug()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>객체의 속성 목록 출력</span>
+    <button mat-raised-button color="primary" class="button" (click)="dir()">dir()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>객체를 XML/HTML 요소 형태로 나타낼 수 있으면 그렇게 표시하고, 아닐 경우 JavaScript 객체 형태로 표시.</span>
+    <button mat-raised-button color="primary" class="button" (click)="dirxml()">dirxml()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>표 형태의 데이터를 표에 그립니다.</span>
+    <button mat-raised-button color="primary" class="button" (click)="table()">table()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>새로운 인라인 그룹을 생성해, 이후 모든 출력을 한 단계 들여쓰기. 그룹을 나오려면 groupEnd().</span>
+    <button mat-raised-button color="primary" class="button" (click)="group()">group()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>group()과 비슷하지만 생성한 그룹은 처음에 접혀 있다. 그룹을 나오려면 groupEnd().</span>
+    <button mat-raised-button color="primary" class="button" (click)="groupCollapsed()">groupCollapsed()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>이름을 주고 타이머를 실행. 하나의 페이지에서는 최대 10,000개의 타이머를 동시에 실행할 수 있다.</span>
+    <button mat-raised-button color="primary" class="button" (click)="time()">time()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>지정한 타이머를 멈추고, 소요시간을 출력</span>
+    <button mat-raised-button color="primary" class="button" (click)="timeEnd()">timeEnd()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>스택 추적을 출력</span>
+    <button mat-raised-button color="primary" class="button" (click)="trace()">trace()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>첫 번째 매개변수가 false인 경우 메시지와 스택 추적을 출력</span>
+    <button mat-raised-button color="primary" class="button" (click)="assert()">assert()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>주어진 레이블로 메서드를 호출한 횟수를 출력</span>
+    <button mat-raised-button color="primary" class="button" (click)="count()">count()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>주어진 라벨의 횟수를 초기화</span>
+    <button mat-raised-button color="primary" class="button" (click)="countReset()">countReset()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>브라우저의 내장 프로파일러를 실행</span>
+    <button mat-raised-button color="primary" class="button" (click)="profile()">profile()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>프로파일러를 멈춤. 프로파일 결과는 크롬: three dots > more tools > javascriptProfiler </span>
+    <button mat-raised-button color="primary" class="button" (click)="profileEnd()">profileEnd()</button>
+  </div>
+
+  <div class="consoleApi">
+    <span>콘솔 지우기</span>
+    <button mat-raised-button color="primary" class="button" (click)="clear()">clear()</button>
+  </div>
+
+</main>

@@ -18,6 +18,10 @@ const routes: Routes = [{
       path: 'background-task',
       loadChildren: () => import('./page/background-task/background-task.module').then(m => m.BackgroundTaskModule)
     },
+    {
+      path: 'console-api',
+      loadChildren: () => import('./page/console-api/console-api.module').then(m => m.ConsoleApiModule)
+    },
   ]
 }];
 
