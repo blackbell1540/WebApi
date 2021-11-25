@@ -1,0 +1,19 @@
+<button mat-button color="primary" (click)="goBack()">뒤로</button>
+<h1>Backgorund Task</h1>
+
+<div class="container">
+  <div class="label">시작 버튼을 눌러보세요.</div>
+  <progress #progressBarElem [value]="currentTaskNumber"></progress>
+  <button mat-button color="primary" class="button" (click)="start()">Start</button>
+  <div class="label counter">
+    Task <span #currentTaskNumberElem>{{ currentTaskNumber }}</span> of <span #totalTaskCountElem>{{ totalTaskCount }}</span>
+  </div>
+</div>
+
+<div class="logBox">
+  <div class="logHeader">
+    Log
+  </div>
+  <div #logElem class="log" [innerHTML]="logBuffer">
+  </div>
+</div>
