@@ -8,6 +8,10 @@ import { Router } from '@angular/router';
 })
 export class IndexComponent implements OnInit {
 
+  public buttons = [
+    'background-tasks',
+    'console-api'
+  ]
   constructor(
     private router: Router
   ) { }

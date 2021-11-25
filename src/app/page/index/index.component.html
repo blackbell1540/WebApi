@@ -1,5 +1,5 @@
 <div class="index-flex">
-    <span class="index-item" (click)="nav('background-task')">
-        Backgorund-Task
+    <span *ngFor="let button of buttons" class="index-item" (click)="nav(button)">
+        {{ button }}
     </span>
 </div>
