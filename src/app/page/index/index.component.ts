@@ -10,7 +10,9 @@ export class IndexComponent implements OnInit {
 
   public buttons = [
     'background-tasks',
-    'console-api'
+    'console-api',
+    'performance-api',
+    'performance-navigation-timing'
   ]
   constructor(
     private router: Router

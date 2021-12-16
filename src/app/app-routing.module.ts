@@ -22,6 +22,14 @@ const routes: Routes = [{
       path: 'console-api',
       loadChildren: () => import('./page/console-api/console-api.module').then(m => m.ConsoleApiModule)
     },
+    {
+      path: 'performance-api',
+      loadChildren: () => import('./page/performance-api/performance-api.module').then(m => m.PerformanceAPIModule)
+    },
+    {
+      path: 'performance-navigation-timing',
+      loadChildren: () => import('./page/performance-navigation-timing/performance-navigation-timing.module').then(m => m.PerformanceNavigationTimingModule)
+    },
   ]
 }];
 
